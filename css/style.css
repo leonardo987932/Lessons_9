@@ -1,0 +1,210 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:,regular,700,900&display=swap&subset=cyrillic-ext ");
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	/* color: #000; */
+	/* font-family:""; */
+	font-family: "Roboto";
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background-color: #f5f5f5;
+}
+/* ------------------------------ */
+.services {
+	padding: 0px 210px;
+	margin: 0px 0px 100px 0px;
+}
+.subtitle {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5d62b5;
+	min-height: 16px;
+	padding: 0px 0px 0px 32px;
+	background: url("../img/titlee.svg") 0 0 no-repeat;
+	margin: 0px 0px 33px 0px;
+}
+.title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+	max-width: 583px;
+	margin: 0px 0px 78px 0px;
+}
+.servicesrow {
+	margin: 0px 0px 66px 0px;
+}
+.rowitems {
+	max-width: 324px;
+	padding: 50px 44px;
+	border: 1px solid #000;
+	border-radius: 5%;
+	text-align: center;
+}
+.rowitems:hover {
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+}
+.servicesrow *:not(:last-child) {
+	margin: 0px 0px 24px 0px;
+}
+
+.rowimg {
+	margin: 0px 0px 33px 0px;
+}
+.tl {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #f2726f;
+	margin: 0px 0px 20px 0px;
+}
+.tx {
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+.servicesbottom {
+	text-align: center;
+	margin: 0px auto;
+	max-width: 124px;
+	background-color: #f2726f;
+	padding: 20px 22px;
+	border: 1px transparent #000;
+	border-radius: 8px;
+}
+.servicesbottom a {
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: bold;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+/* ------------------------------ */
+.love {
+	padding: 0px 210px;
+	margin: 0px 0px 100px 0px;
+}
+.lovecolumn {
+	max-width: 1024px;
+}
+.columnitem {
+	display: inline-block;
+	max-width: 360px;
+}
+.rowimg {
+	display: inline-block;
+	width: 76px;
+	vertical-align: top;
+}
+.itemrow {
+	display: inline-block;
+	max-width: 200px;
+}
+
+/* ------------------------------ */
+.cnt {
+	padding: 0px 0px 0px 210px;
+	background: #29c3be url("../img/impact/bgimg.png") 100% 0 no-repeat;
+}
+.dogtiit {
+	display: inline-block;
+	max-width: 411px;
+	margin: 112px 111px 79px 0px;
+}
+.dogsubtitle {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	color: #ffffff;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	display: inline-block;
+	min-height: 16px;
+	padding: 0px 0px 0px 32px;
+	background: url("../img/impact/tit.svg") 0 0 no-repeat;
+	margin: 0px 0px 32px 0px;
+}
+.dogtitle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+}
+.dogimg {
+	border: 1px transparent #000;
+	border-radius: 40px;
+	margin: -80px 0px 0px 0px;
+}
+.doglist *:not(:last-child) {
+	margin: 0px 24px 0px 0px;
+}
+.listcnt {
+	display: inline-block;
+	max-width: 237px;
+	margin: 0px 0px 134px 0px;
+}
+.cnttext {
+	display: inline-block;
+}
+.textnomber span {
+	max-width: 150px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+}
+.texttext span {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5d62b5;
+}
